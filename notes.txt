@@ -1,7 +1,0 @@
-This is from main branch
-new line from main
-
-Testing branch
-{
-	/// codes
-}
