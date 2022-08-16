@@ -1,0 +1,15 @@
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.csprojAssemblyReference.cache
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.csproj.CoreCompileInputs.cache
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\bin\Debug\ConsoleAppContainer.exe.config
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\bin\Debug\ConsoleAppContainer.exe
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\bin\Debug\ConsoleAppContainer.pdb
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.exe
+C:\Users\HASIB\Dropbox\AIUB\21. Summer 2021-22\OOP-2\Projects\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.pdb
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\bin\Debug\ConsoleAppContainer.exe.config
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\bin\Debug\ConsoleAppContainer.exe
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\bin\Debug\ConsoleAppContainer.pdb
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.csproj.AssemblyReference.cache
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.csproj.SuggestedBindingRedirects.cache
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.csproj.CoreCompileInputs.cache
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.exe
+G:\Desktop Items\STATION\Current\C#\AIUB\Final\Sir Codes\CC\ConsoleAppContainerSln\ConsoleAppContainer\obj\Debug\ConsoleAppContainer.pdb
