@@ -42,7 +42,6 @@ namespace SuperShopManegementSystem
         }
 
         //internal DataTable dt;
-        // shamim db
 
         public DataAccess()
         {
