@@ -9,10 +9,8 @@ C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopM
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.exe
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.pdb
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.Login.resources
-C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.exe.licenses
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.CopyComplete
-C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
-C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
-C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
-C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
