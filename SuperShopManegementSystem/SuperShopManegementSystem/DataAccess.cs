@@ -42,7 +42,7 @@ namespace SuperShopManegementSystem
         }
 
         //internal DataTable dt;
-
+        // shamim added
         public DataAccess()
         {
             this.Sqlcon = new SqlConnection(@"Data Source=Zahurul-Islam;Initial Catalog=SSMS;Persist Security Info=True;User ID=sa;Password=#random2022.");
