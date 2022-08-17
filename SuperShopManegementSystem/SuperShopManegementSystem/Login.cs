@@ -75,5 +75,10 @@ namespace SuperShopManegementSystem
         {
             KeyPress(sender, e);
         }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(1);
+        }
     }
 }

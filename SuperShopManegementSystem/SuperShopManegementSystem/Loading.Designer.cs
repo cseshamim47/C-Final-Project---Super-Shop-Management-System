@@ -33,9 +33,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlLoading = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.progressLoading = new Bunifu.UI.WinForms.BunifuProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -76,35 +78,26 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Super Shop Management System";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pnlLoading);
+            this.panel1.Location = new System.Drawing.Point(-2, 465);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(889, 18);
+            this.panel1.TabIndex = 6;
+            // 
+            // pnlLoading
+            // 
+            this.pnlLoading.BackColor = System.Drawing.Color.Cyan;
+            this.pnlLoading.Location = new System.Drawing.Point(0, 2);
+            this.pnlLoading.Name = "pnlLoading";
+            this.pnlLoading.Size = new System.Drawing.Size(134, 18);
+            this.pnlLoading.TabIndex = 7;
+            // 
             // timer1
             // 
+            this.timer1.Interval = 15;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // progressLoading
-            // 
-            this.progressLoading.AllowAnimations = false;
-            this.progressLoading.Animation = 0;
-            this.progressLoading.AnimationSpeed = 220;
-            this.progressLoading.AnimationStep = 10;
-            this.progressLoading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
-            this.progressLoading.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("progressLoading.BackgroundImage")));
-            this.progressLoading.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
-            this.progressLoading.BorderRadius = 9;
-            this.progressLoading.BorderThickness = 1;
-            this.progressLoading.Location = new System.Drawing.Point(0, 464);
-            this.progressLoading.Maximum = 100;
-            this.progressLoading.MaximumValue = 100;
-            this.progressLoading.Minimum = 0;
-            this.progressLoading.MinimumValue = 0;
-            this.progressLoading.Name = "progressLoading";
-            this.progressLoading.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            this.progressLoading.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
-            this.progressLoading.ProgressColorLeft = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
-            this.progressLoading.ProgressColorRight = System.Drawing.Color.DodgerBlue;
-            this.progressLoading.Size = new System.Drawing.Size(893, 13);
-            this.progressLoading.TabIndex = 6;
-            this.progressLoading.Value = 0;
-            this.progressLoading.ValueByTransition = 0;
             // 
             // Loading
             // 
@@ -112,17 +105,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(891, 477);
-            this.Controls.Add(this.progressLoading);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loading";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             this.Load += new System.EventHandler(this.Loading_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,7 +127,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlLoading;
         private System.Windows.Forms.Timer timer1;
-        private Bunifu.UI.WinForms.BunifuProgressBar progressLoading;
     }
 }

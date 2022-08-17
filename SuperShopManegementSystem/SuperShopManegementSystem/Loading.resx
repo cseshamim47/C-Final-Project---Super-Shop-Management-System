@@ -477,17 +477,6 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="progressLoading.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAA30AAAANCAYAAAAdQAflAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEbSURBVHhe7duxTcNAGIbhjAHn5C4lnc8gJEagomYJBmAL
-        KjahZYVskAVIFEFBQwG2dJKV6AbIieeVniq/3X+yspAkSZIk/ZNCGh67mDddyr8AAAA0YNpwsX9N6fai
-        TLt6y5jfx+PP6ksAAAA4d7vVengoE++45Xp4GgffV+UhAAAAGhFS3l+mm6sy9ebGH7enxwAAALQnxOGt
-        TL252iEAAADtCan/LlNvrnYIAABAm8rUm6sdAQAA0KYy9ea61H/UDgEAAGhLiPmnTL256Y9+tWMAAAAa
-        E/OmTL25kPo8/rCrPgAAAEATwioflmm4L1PvuPHgOcR8OH0IAACA8zcNvpD6lzLx6nXp+m76FFh7AQAA
-        AGdrW//Ct1j8ASiBq3xFgaaDAAAAAElFTkSuQmCC
-</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAkAAKsAAACrAAAAAAAAAAAA
