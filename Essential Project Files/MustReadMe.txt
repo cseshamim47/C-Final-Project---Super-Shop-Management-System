@@ -10,6 +10,8 @@ Blue
 27,31,48
 Brown
 115,60,60
+orange
+176, 66, 35
 Border Hover Color
 180, 110, 110
 Border Active Color
