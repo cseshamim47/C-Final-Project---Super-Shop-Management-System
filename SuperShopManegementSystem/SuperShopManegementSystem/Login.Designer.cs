@@ -44,7 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuShapes2 = new Bunifu.UI.WinForms.BunifuShapes();
             this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
             this.txtLoginPassword = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtLoginId = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panelRight = new Bunifu.UI.WinForms.BunifuPanel();
@@ -173,32 +173,32 @@
             this.bunifuShapes1.TabStop = false;
             this.bunifuShapes1.Text = "bunifuShapes1";
             // 
-            // bunifuThinButton21
+            // btnLogin
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
-            this.bunifuThinButton21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "LOGIN";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Montserrat ExtraBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(163, 14);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(200, 80);
-            this.bunifuThinButton21.TabIndex = 2;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.btnLogin.ActiveBorderThickness = 1;
+            this.btnLogin.ActiveCornerRadius = 20;
+            this.btnLogin.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
+            this.btnLogin.ActiveForecolor = System.Drawing.Color.White;
+            this.btnLogin.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
+            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnLogin.BackColor = System.Drawing.SystemColors.Control;
+            this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
+            this.btnLogin.ButtonText = "LOGIN";
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.Font = new System.Drawing.Font("Montserrat ExtraBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.IdleBorderThickness = 1;
+            this.btnLogin.IdleCornerRadius = 20;
+            this.btnLogin.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
+            this.btnLogin.IdleForecolor = System.Drawing.Color.White;
+            this.btnLogin.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(31)))), ((int)(((byte)(48)))));
+            this.btnLogin.Location = new System.Drawing.Point(163, 14);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(200, 80);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtLoginPassword
             // 
@@ -274,6 +274,7 @@
             this.txtLoginPassword.TextPlaceholder = "";
             this.txtLoginPassword.UseSystemPasswordChar = true;
             this.txtLoginPassword.WordWrap = true;
+            this.txtLoginPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLoginPassword_KeyDown);
             // 
             // txtLoginId
             // 
@@ -349,6 +350,7 @@
             this.txtLoginId.TextPlaceholder = "";
             this.txtLoginId.UseSystemPasswordChar = false;
             this.txtLoginId.WordWrap = true;
+            this.txtLoginId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLoginId_KeyDown);
             // 
             // panelRight
             // 
@@ -445,7 +447,7 @@
             this.tableLayoutPanel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 83.68121F));
-            this.tableLayoutPanel3.Controls.Add(this.bunifuThinButton21, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.btnLogin, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.lblClear, 0, 1);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(15, 396);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -469,7 +471,7 @@
             this.lblClear.Text = "CLEAR";
             this.lblClear.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lblClear_MouseClick);
             this.lblClear.MouseLeave += new System.EventHandler(this.lblClear_MouseLeave);
-            this.lblClear.MouseHover += new System.EventHandler(this.label6_MouseHover);
+            this.lblClear.MouseHover += new System.EventHandler(this.lblClear_MouseHover);
             // 
             // Login
             // 
@@ -508,7 +510,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private Bunifu.UI.WinForms.BunifuTextBox txtLoginPassword;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnLogin;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label4;

@@ -19,15 +19,21 @@ namespace SuperShopManegementSystem
             this.Da = new DataAccess();
         }
 
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
+
+            if (this.txtLoginId.Text.Length == 0 || this.txtLoginPassword.Text.Length == 0)
+            {
+                MessageBox.Show("Please enter all information!","",MessageBoxButtons.OK, MessageBoxIcon.Question);
+                return;
+            }
             string query = "select * from UserInfo where UserName = '" + this.txtLoginId.Text + "' and Password = '" + this.txtLoginPassword.Text + "';";
             var ds = this.Da.ExecuteQuery(query);
             if (ds.Tables[0].Rows.Count == 1) MessageBox.Show("logged in");
-            else MessageBox.Show("incorrect cred");
+            else MessageBox.Show("Your credential is wrong!","Failed",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
         }
 
-        private void label6_MouseHover(object sender, EventArgs e)
+        private void lblClear_MouseHover(object sender, EventArgs e)
         {
             this.lblClear.ForeColor = Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
         }
@@ -38,11 +44,36 @@ namespace SuperShopManegementSystem
 
         }
 
-        private void lblClear_MouseClick(object sender, MouseEventArgs e)
+        private void lblClear_MouseClick(object sender, MouseEventArgs e = null)
         {
             this.txtLoginId.Text = "";
             this.txtLoginPassword.Text = "";
             this.panelRight.Focus();
+        }
+        
+        private void KeyPress(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = e.SuppressKeyPress = true;
+                btnLogin_Click(this, new EventArgs());
+
+            }
+            else if (e.KeyCode == Keys.Escape)
+            {
+                e.Handled = e.SuppressKeyPress = true;
+                lblClear_MouseClick(this);
+            }
+        }
+
+        private void txtLoginId_KeyDown(object sender, KeyEventArgs e)
+        {
+            KeyPress(sender, e);
+        }
+
+        private void txtLoginPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            KeyPress(sender, e);
         }
     }
 }

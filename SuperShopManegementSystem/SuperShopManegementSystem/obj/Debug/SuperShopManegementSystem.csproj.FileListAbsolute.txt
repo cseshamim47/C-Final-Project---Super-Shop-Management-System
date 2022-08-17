@@ -11,3 +11,6 @@ C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopM
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.Login.resources
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.exe.licenses
 C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.CopyComplete
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.Loading.resources
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.Licensing.dll
