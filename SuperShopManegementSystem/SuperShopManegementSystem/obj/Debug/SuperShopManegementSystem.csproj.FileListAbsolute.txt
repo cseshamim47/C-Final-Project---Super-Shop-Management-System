@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\SuperShopManegementSystem.exe.config
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\SuperShopManegementSystem.exe
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\SuperShopManegementSystem.pdb
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.Properties.Resources.resources
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.exe
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.pdb
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.Login.resources
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.exe.licenses
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.csproj.CopyComplete
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\obj\Debug\SuperShopManegementSystem.Loading.resources
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\User\Desktop\C-Sharp-Final-Project\SuperShopManegementSystem\SuperShopManegementSystem\bin\Debug\Bunifu.Licensing.dll
