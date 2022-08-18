@@ -19,8 +19,8 @@ namespace SuperShopManegementSystem
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            this.pnlLoading.Width += 7;
-            if(this.pnlLoading.Width > 700)
+            this.pnlLoading.Width += 6;
+            if(this.pnlLoading.Width >= 600)
             {
                 //this.pnlLoading.Width = 40;
                 this.timer1.Stop();

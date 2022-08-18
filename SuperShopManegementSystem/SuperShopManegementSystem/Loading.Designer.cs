@@ -83,12 +83,12 @@
             this.panel1.Controls.Add(this.pnlLoading);
             this.panel1.Location = new System.Drawing.Point(-2, 465);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(889, 18);
+            this.panel1.Size = new System.Drawing.Size(880, 18);
             this.panel1.TabIndex = 6;
             // 
             // pnlLoading
             // 
-            this.pnlLoading.BackColor = System.Drawing.Color.Cyan;
+            this.pnlLoading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(66)))), ((int)(((byte)(35)))));
             this.pnlLoading.Location = new System.Drawing.Point(0, 2);
             this.pnlLoading.Name = "pnlLoading";
             this.pnlLoading.Size = new System.Drawing.Size(134, 18);
